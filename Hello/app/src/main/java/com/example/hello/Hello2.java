@@ -1,4 +1,4 @@
-package com.example.hellow;
+package com.example.hello;
 
 import androidx.appcompat.app.AppCompatActivity;
 

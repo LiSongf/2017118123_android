@@ -1,4 +1,4 @@
-package com.example.hellow;
+package com.example.hello;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.hellow", appContext.getPackageName());
+        assertEquals("com.example.hello", appContext.getPackageName());
     }
 }

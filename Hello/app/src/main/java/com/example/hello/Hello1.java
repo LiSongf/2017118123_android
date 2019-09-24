@@ -1,4 +1,4 @@
-package com.example.hellow;
+package com.example.hello;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,18 +8,19 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class Hello3 extends AppCompatActivity implements View.OnClickListener{
+public class Hello1 extends AppCompatActivity implements View.OnClickListener{
 
     public static final String TAG="Hello1";
     private Button hello1;
     private Button hello2;
     private Button hello3;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Hello3");
-        setContentView(R.layout.activity_hello3);
+        setTitle("Hello1");
+        setContentView(R.layout.activity_main);
         hello1 = findViewById(R.id.btHello1);
         hello2 = findViewById(R.id.btHello2);
         hello3 = findViewById(R.id.btHello3);
@@ -47,17 +48,17 @@ public class Hello3 extends AppCompatActivity implements View.OnClickListener{
     }
 
     private void onClickHello1(View view) {
-        Intent intent = new Intent(Hello3.this,Hello1.class);
+        Intent intent = new Intent(Hello1.this,Hello1.class);
         startActivity(intent);
     }
 
     private void onClickHello2(View view) {
-        Intent intent = new Intent(Hello3.this,Hello2.class);
+        Intent intent = new Intent(Hello1.this,Hello2.class);
         startActivity(intent);
     }
 
     private void onClickHello3(View view) {
-        Intent intent = new Intent(Hello3.this,Hello3.class);
+        Intent intent = new Intent(Hello1.this,Hello3.class);
         startActivity(intent);
     }
 
