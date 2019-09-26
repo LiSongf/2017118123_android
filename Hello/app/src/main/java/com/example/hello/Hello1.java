@@ -11,6 +11,8 @@ import android.widget.Button;
 public class Hello1 extends AppCompatActivity implements View.OnClickListener{
 
     public static final String TAG="Hello1";
+    private static int objCount=0;
+    private int mObjCount;
     private Button hello1;
     private Button hello2;
     private Button hello3;
@@ -19,6 +21,11 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        objCount++;
+        mObjCount = objCount;
+
+        Log.d(TAG,mObjCount+"-onCreate execute");
         setTitle("Hello1");
         setContentView(R.layout.activity_main);
         hello1 = findViewById(R.id.btHello1);
@@ -89,7 +96,8 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener{
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d(TAG,"onDestroy");
+        objCount--;
+        Log.d(TAG,objCount+"-onDestroy");
     }
 
     @Override

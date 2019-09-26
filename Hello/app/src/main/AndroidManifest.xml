@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name="com.example.hello.Hello3"></activity>
         <activity android:name="com.example.hello.Hello2" />
-        <activity android:name="com.example.hello.Hello1">
+        <activity android:name="com.example.hello.Hello1"
+                android:launchMode="standard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
