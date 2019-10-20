@@ -6,92 +6,93 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml
+8-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml
+9-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:5:5-43:19
+11-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:5:5-43:19
 12        android:allowBackup="true"
-12-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:6:9-35
+12-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.0.1] E:\2017118123\Android\AndroidStudioCache\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:7:9-43
+15-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:8:9-41
+16-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:9:9-54
+17-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity android:name="com.example.mydemo3.GeoActivity" >
-20-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:12:9-19:20
-20-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:12:19-46
-21            <intent-filter>
-21-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:13:13-18:29
-22                <action android:name="com.example.activitytest.ACTION_START" />
-22-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:14:17-80
-22-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:14:25-77
-23
-24                <category android:name="android.intent.catrgory.DEFAULT" />
-24-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:16:17-76
-24-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:16:27-73
-25                <category android:name="com.example.activitytest.MY_CATEGORY" />
-25-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:17:17-81
-25-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:17:27-78
-26            </intent-filter>
-27        </activity>
-28        <activity android:name="com.example.mydemo3.TelActivity" >
-28-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:20:9-27:20
-28-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:20:19-46
-29            <intent-filter>
-29-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:13:13-18:29
-30                <action android:name="com.example.activitytest.ACTION_START" />
-30-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:14:17-80
-30-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:14:25-77
-31
-32                <category android:name="android.intent.catrgory.DEFAULT" />
-32-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:16:17-76
-32-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:16:27-73
-33                <category android:name="com.example.activitytest.MY_CATEGORY" />
-33-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:17:17-81
-33-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:17:27-78
-34            </intent-filter>
-35        </activity>
-36        <activity android:name="com.example.mydemo3.BaiduActivity" >
-36-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:28:9-35:20
-36-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:28:19-48
-37            <intent-filter>
-37-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:13:13-18:29
-38                <action android:name="com.example.activitytest.ACTION_START" />
-38-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:14:17-80
-38-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:14:25-77
-39
-40                <category android:name="android.intent.catrgory.DEFAULT" />
-40-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:16:17-76
-40-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:16:27-73
-41                <category android:name="com.example.activitytest.MY_CATEGORY" />
-41-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:17:17-81
-41-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:17:27-78
-42            </intent-filter>
-43        </activity>
-44        <activity android:name="com.example.mydemo3.MainActivity" >
-44-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:36:9-42:20
-44-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:36:19-47
-45            <intent-filter>
-45-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:37:13-41:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:38:17-69
-46-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:38:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:40:17-77
-48-->E:\2017118123\Android\2017118123_android\MyDemo3\app\src\main\AndroidManifest.xml:40:27-74
-49            </intent-filter>
-50        </activity>
-51    </application>
-52
-53</manifest>
+18-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.mydemo3.GeoActivity" >
+21-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:12:9-19:20
+21-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:12:19-46
+22            <intent-filter>
+22-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:13:13-18:29
+23                <action android:name="com.example.activitytest.ACTION_START" />
+23-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:14:17-80
+23-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:14:25-77
+24
+25                <category android:name="android.intent.catrgory.DEFAULT" />
+25-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:16:17-76
+25-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:16:27-73
+26                <category android:name="com.example.activitytest.MY_CATEGORY" />
+26-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:17:17-81
+26-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:17:27-78
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="com.example.mydemo3.TelActivity" >
+29-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:20:9-27:20
+29-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:20:19-46
+30            <intent-filter>
+30-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:13:13-18:29
+31                <action android:name="com.example.activitytest.ACTION_START" />
+31-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:14:17-80
+31-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:14:25-77
+32
+33                <category android:name="android.intent.catrgory.DEFAULT" />
+33-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:16:17-76
+33-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:16:27-73
+34                <category android:name="com.example.activitytest.MY_CATEGORY" />
+34-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:17:17-81
+34-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:17:27-78
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.example.mydemo3.BaiduActivity" >
+37-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:28:9-35:20
+37-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:28:19-48
+38            <intent-filter>
+38-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:13:13-18:29
+39                <action android:name="com.example.activitytest.ACTION_START" />
+39-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:14:17-80
+39-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:14:25-77
+40
+41                <category android:name="android.intent.catrgory.DEFAULT" />
+41-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:16:17-76
+41-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:16:27-73
+42                <category android:name="com.example.activitytest.MY_CATEGORY" />
+42-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:17:17-81
+42-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:17:27-78
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.example.mydemo3.MainActivity" >
+45-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:36:9-42:20
+45-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:36:19-47
+46            <intent-filter>
+46-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:37:13-41:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:38:17-69
+47-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:38:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:40:17-77
+49-->E:\2017118123\Android\booksource-master\chapter2\MyDemo3\app\src\main\AndroidManifest.xml:40:27-74
+50            </intent-filter>
+51        </activity>
+52    </application>
+53
+54</manifest>
